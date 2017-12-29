@@ -1,0 +1,22 @@
+
+<html>
+<head>
+<title>HTML Target Frames</title>
+<script language="javascript" type="text/javascript">
+function btntest_onclick() 
+{
+    row1.src = "PGM-3.html";
+}
+</script>
+</head>
+<body>
+<frameset rows = "50%,50%">
+     <frame src = "row1.html" name = "row1" />
+	 <input id="btntest" type="button" value="Check" onclick="return btntest_onclick()" />
+<frameset cols = "50%,50%">
+	 <frame src = "col1.html" name = "col1" />
+	 <frame src = "col2.html" name = "col2" />
+</frameset>
+</frameset>
+</body>
+</html>
